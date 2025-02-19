@@ -1,14 +1,17 @@
-
 import './App.css'
+import { Article } from './components/Article'
+import { ImageDrawers } from './components/ImageDrawers'
+
 
 function App() {
 
 
   return (
-    <>
-        <h1 className='underline'>hola</h1>
-      
-    </>
+    <div className='bg-nightGrayishBlue flex justify-center items-center h-screen
+    flex-col'>
+      <ImageDrawers />
+      <Article />
+    </div>
   )
 }
 

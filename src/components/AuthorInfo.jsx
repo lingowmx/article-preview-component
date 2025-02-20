@@ -20,10 +20,8 @@ export const AuthorInfo = () => {
       >
         <img src={iconButton} alt="share-icon" className="w-5 h-5" />
       </button>
-      {isSharedOpen && (
-        
-          <Share onClose={() => setIsSharedOpen(!isSharedOpen)}/>
-       
+      {isSharedOpen && (       
+          <Share onClose={() => setIsSharedOpen(!isSharedOpen)}/>      
       )}
     </div>
   )

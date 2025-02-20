@@ -9,7 +9,7 @@ export const Share = ({onClose}) => {
     w-80 h-[72px] rounded-b-lg pl-6 pr-6
     xl:rounded-lg xl:absolute xl:left-32 xl:bottom-24">
       <p className="text-grayishBlue">S H A R E</p>
-      <div className="flex gap-4 mr-6">
+      <div className="flex gap-4 mr-6 xl:relative" >
         <a href="https://www.facebooks.com/">
           <img src={iconFacebook} alt="icon-facebook" />
         </a>
@@ -26,6 +26,8 @@ export const Share = ({onClose}) => {
             >
         <img src={iconButton} alt="share-button" />
       </button> 
+      <div className="xl:w-6 xl:h-6 xl:bg-veryDarkGrayishBlue xl:absolute
+      xl:top-14 xl:right-24 xl:rotate-45"></div>
     </div>
   )
 }

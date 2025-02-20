@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className='bg-nightGrayishBlue flex justify-center items-center h-screen
-    flex-col'>
+    flex-col relative'>
       <ImageDrawers />
       <Article />
     </div>

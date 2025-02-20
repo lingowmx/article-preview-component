@@ -1,4 +1,3 @@
-// import { Share } from "./Share"
 import { AuthorInfo } from "./AuthorInfo"
 export const Article = () => {
 

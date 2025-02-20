@@ -7,10 +7,11 @@ function App() {
 
 
   return (
-    <div className='bg-nightGrayishBlue flex justify-center items-center h-screen
-    flex-col relative'>
-      <ImageDrawers />
-      <Article />
+    <div className='bg-nightGrayishBlue flex justify-center items-center h-screen xl:w-screen'>
+      <div className='flex flex-col relative xl:flex-row xl:max-w-6xl xl:mx-auto'>
+        <ImageDrawers />
+        <Article />
+      </div>
     </div>
   )
 }
